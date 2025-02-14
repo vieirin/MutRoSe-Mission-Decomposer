@@ -5,7 +5,7 @@ Grammar
     1 input: expr-or-null
 
     2 expr-or-null: expr
-    3             | %empty
+    3             | ε
 
     4 expr: '(' expr-no-pt ')'
     5     | expr-no-pt
